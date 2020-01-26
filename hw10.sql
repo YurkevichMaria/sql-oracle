@@ -35,9 +35,7 @@ select * from locations2;
 savepoint s1;
 insert into locations2 
 (select * from locations where country_id = (select country_id from countries where country_name = 'United States of America' ));
-select * from locations2;
-insert into locations2  
-(select * from locations where country_id = (select country_id from countries where country_name = 'United States of America' ));
+select * from locations2; 
 
 
 5. Совершите commit.
