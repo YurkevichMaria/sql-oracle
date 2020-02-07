@@ -27,3 +27,5 @@ undefine address;
 4. Напишите команду/ды, которая удаляет сессионные значения для наших переменных.
 undefine name;
 undefine address;
+
+select * from employees;
